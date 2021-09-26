@@ -1,0 +1,6 @@
+framework module Pods_GriefConnectTests {
+  umbrella header "Pods-GriefConnectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

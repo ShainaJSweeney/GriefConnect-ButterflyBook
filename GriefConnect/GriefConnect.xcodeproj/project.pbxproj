@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A778F62D4E8C1AE8944EF77 /* Pods_GriefConnect_GriefConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AA5BB0F55176027EA294DD /* Pods_GriefConnect_GriefConnectUITests.framework */; };
+		264B5FE126FEBC1200F5ED3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264B5FE026FEBC1200F5ED3A /* AppDelegate.swift */; };
+		264B5FE326FEBC1200F5ED3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264B5FE226FEBC1200F5ED3A /* SceneDelegate.swift */; };
+		264B5FE826FEBC1200F5ED3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264B5FE626FEBC1200F5ED3A /* Main.storyboard */; };
+		264B5FEB26FEBC1200F5ED3A /* GriefConnect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 264B5FE926FEBC1200F5ED3A /* GriefConnect.xcdatamodeld */; };
+		264B5FED26FEBC1400F5ED3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264B5FEC26FEBC1400F5ED3A /* Assets.xcassets */; };
+		264B5FF026FEBC1400F5ED3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264B5FEE26FEBC1400F5ED3A /* LaunchScreen.storyboard */; };
+		264B5FFB26FEBC1400F5ED3A /* GriefConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264B5FFA26FEBC1400F5ED3A /* GriefConnectTests.swift */; };
+		264B600626FEBC1400F5ED3A /* GriefConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264B600526FEBC1400F5ED3A /* GriefConnectUITests.swift */; };
+		2658FF4226FF82F200C74FA2 /* UserDatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658FF4126FF82F200C74FA2 /* UserDatabaseModel.swift */; };
+		2658FF442700B91900C74FA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658FF432700B91900C74FA2 /* HomeViewController.swift */; };
+		2658FF462700C05400C74FA2 /* HomeCellViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658FF452700C05400C74FA2 /* HomeCellViewTableViewCell.swift */; };
+		26981EDD26FF70FA003710C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26981EDC26FF70FA003710C7 /* LoginViewController.swift */; };
+		26981EDF26FF72CC003710C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26981EDE26FF72CC003710C7 /* GoogleService-Info.plist */; };
+		A4492B5E39D4F6680FEAABE1 /* Pods_GriefConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCE8EBD75911634CE79C7CC /* Pods_GriefConnectTests.framework */; };
+		F82F6B732F141BCCB6D899D8 /* Pods_GriefConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AE87E7117EC5016A9F3736 /* Pods_GriefConnect.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264B5FF726FEBC1400F5ED3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264B5FD526FEBC1200F5ED3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264B5FDC26FEBC1200F5ED3A;
+			remoteInfo = GriefConnect;
+		};
+		264B600226FEBC1400F5ED3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264B5FD526FEBC1200F5ED3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264B5FDC26FEBC1200F5ED3A;
+			remoteInfo = GriefConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002B0BB7757F92C23231FAC6 /* Pods-GriefConnect-GriefConnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GriefConnect-GriefConnectUITests.release.xcconfig"; path = "Target Support Files/Pods-GriefConnect-GriefConnectUITests/Pods-GriefConnect-GriefConnectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F8F1D987AAD8FC92B9F9961 /* Pods-GriefConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GriefConnectTests.release.xcconfig"; path = "Target Support Files/Pods-GriefConnectTests/Pods-GriefConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D555B8FCE2827E6FDCD403C /* Pods-GriefConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GriefConnectTests.debug.xcconfig"; path = "Target Support Files/Pods-GriefConnectTests/Pods-GriefConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		264B5FDD26FEBC1200F5ED3A /* GriefConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GriefConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		264B5FE026FEBC1200F5ED3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		264B5FE226FEBC1200F5ED3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		264B5FE726FEBC1200F5ED3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		264B5FEA26FEBC1200F5ED3A /* GriefConnect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GriefConnect.xcdatamodel; sourceTree = "<group>"; };
+		264B5FEC26FEBC1400F5ED3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		264B5FEF26FEBC1400F5ED3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		264B5FF126FEBC1400F5ED3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264B5FF626FEBC1400F5ED3A /* GriefConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GriefConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		264B5FFA26FEBC1400F5ED3A /* GriefConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GriefConnectTests.swift; sourceTree = "<group>"; };
+		264B5FFC26FEBC1400F5ED3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264B600126FEBC1400F5ED3A /* GriefConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GriefConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		264B600526FEBC1400F5ED3A /* GriefConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GriefConnectUITests.swift; sourceTree = "<group>"; };
+		264B600726FEBC1400F5ED3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2658FF4126FF82F200C74FA2 /* UserDatabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDatabaseModel.swift; sourceTree = "<group>"; };
+		2658FF432700B91900C74FA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2658FF452700C05400C74FA2 /* HomeCellViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellViewTableViewCell.swift; sourceTree = "<group>"; };
+		26981EDC26FF70FA003710C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		26981EDE26FF72CC003710C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29BA34B799B85CA712D4B547 /* Pods-GriefConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GriefConnect.release.xcconfig"; path = "Target Support Files/Pods-GriefConnect/Pods-GriefConnect.release.xcconfig"; sourceTree = "<group>"; };
+		4834768ADE51FED04D8F90AA /* Pods-GriefConnect-GriefConnectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GriefConnect-GriefConnectUITests.debug.xcconfig"; path = "Target Support Files/Pods-GriefConnect-GriefConnectUITests/Pods-GriefConnect-GriefConnectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54AA5BB0F55176027EA294DD /* Pods_GriefConnect_GriefConnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GriefConnect_GriefConnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCE8EBD75911634CE79C7CC /* Pods_GriefConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GriefConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AE87E7117EC5016A9F3736 /* Pods_GriefConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GriefConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9ED3AEC641BEDCC90A8CA07 /* Pods-GriefConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GriefConnect.debug.xcconfig"; path = "Target Support Files/Pods-GriefConnect/Pods-GriefConnect.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264B5FDA26FEBC1200F5ED3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82F6B732F141BCCB6D899D8 /* Pods_GriefConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264B5FF326FEBC1400F5ED3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4492B5E39D4F6680FEAABE1 /* Pods_GriefConnectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264B5FFE26FEBC1400F5ED3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A778F62D4E8C1AE8944EF77 /* Pods_GriefConnect_GriefConnectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264B5FD426FEBC1200F5ED3A = {
+			isa = PBXGroup;
+			children = (
+				264B5FDF26FEBC1200F5ED3A /* GriefConnect */,
+				264B5FF926FEBC1400F5ED3A /* GriefConnectTests */,
+				264B600426FEBC1400F5ED3A /* GriefConnectUITests */,
+				264B5FDE26FEBC1200F5ED3A /* Products */,
+				E5BA3A098AA8666227BD871A /* Pods */,
+				C6CB3BDF2A373C33247F54D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		264B5FDE26FEBC1200F5ED3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264B5FDD26FEBC1200F5ED3A /* GriefConnect.app */,
+				264B5FF626FEBC1400F5ED3A /* GriefConnectTests.xctest */,
+				264B600126FEBC1400F5ED3A /* GriefConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264B5FDF26FEBC1200F5ED3A /* GriefConnect */ = {
+			isa = PBXGroup;
+			children = (
+				264B5FE026FEBC1200F5ED3A /* AppDelegate.swift */,
+				264B5FE226FEBC1200F5ED3A /* SceneDelegate.swift */,
+				264B5FE626FEBC1200F5ED3A /* Main.storyboard */,
+				2658FF432700B91900C74FA2 /* HomeViewController.swift */,
+				2658FF452700C05400C74FA2 /* HomeCellViewTableViewCell.swift */,
+				26981EDE26FF72CC003710C7 /* GoogleService-Info.plist */,
+				26981EDC26FF70FA003710C7 /* LoginViewController.swift */,
+				264B5FEC26FEBC1400F5ED3A /* Assets.xcassets */,
+				264B5FEE26FEBC1400F5ED3A /* LaunchScreen.storyboard */,
+				264B5FF126FEBC1400F5ED3A /* Info.plist */,
+				264B5FE926FEBC1200F5ED3A /* GriefConnect.xcdatamodeld */,
+				2658FF4126FF82F200C74FA2 /* UserDatabaseModel.swift */,
+			);
+			path = GriefConnect;
+			sourceTree = "<group>";
+		};
+		264B5FF926FEBC1400F5ED3A /* GriefConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				264B5FFA26FEBC1400F5ED3A /* GriefConnectTests.swift */,
+				264B5FFC26FEBC1400F5ED3A /* Info.plist */,
+			);
+			path = GriefConnectTests;
+			sourceTree = "<group>";
+		};
+		264B600426FEBC1400F5ED3A /* GriefConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				264B600526FEBC1400F5ED3A /* GriefConnectUITests.swift */,
+				264B600726FEBC1400F5ED3A /* Info.plist */,
+			);
+			path = GriefConnectUITests;
+			sourceTree = "<group>";
+		};
+		C6CB3BDF2A373C33247F54D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5AE87E7117EC5016A9F3736 /* Pods_GriefConnect.framework */,
+				54AA5BB0F55176027EA294DD /* Pods_GriefConnect_GriefConnectUITests.framework */,
+				6FCE8EBD75911634CE79C7CC /* Pods_GriefConnectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5BA3A098AA8666227BD871A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9ED3AEC641BEDCC90A8CA07 /* Pods-GriefConnect.debug.xcconfig */,
+				29BA34B799B85CA712D4B547 /* Pods-GriefConnect.release.xcconfig */,
+				4834768ADE51FED04D8F90AA /* Pods-GriefConnect-GriefConnectUITests.debug.xcconfig */,
+				002B0BB7757F92C23231FAC6 /* Pods-GriefConnect-GriefConnectUITests.release.xcconfig */,
+				1D555B8FCE2827E6FDCD403C /* Pods-GriefConnectTests.debug.xcconfig */,
+				0F8F1D987AAD8FC92B9F9961 /* Pods-GriefConnectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264B5FDC26FEBC1200F5ED3A /* GriefConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264B600A26FEBC1400F5ED3A /* Build configuration list for PBXNativeTarget "GriefConnect" */;
+			buildPhases = (
+				596EAAC377FB370098A209C3 /* [CP] Check Pods Manifest.lock */,
+				264B5FD926FEBC1200F5ED3A /* Sources */,
+				264B5FDA26FEBC1200F5ED3A /* Frameworks */,
+				264B5FDB26FEBC1200F5ED3A /* Resources */,
+				D7B8A35BFA624DE2A816F98A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GriefConnect;
+			productName = GriefConnect;
+			productReference = 264B5FDD26FEBC1200F5ED3A /* GriefConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		264B5FF526FEBC1400F5ED3A /* GriefConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264B600D26FEBC1400F5ED3A /* Build configuration list for PBXNativeTarget "GriefConnectTests" */;
+			buildPhases = (
+				D4C2A2CBD829202B3B8FF089 /* [CP] Check Pods Manifest.lock */,
+				264B5FF226FEBC1400F5ED3A /* Sources */,
+				264B5FF326FEBC1400F5ED3A /* Frameworks */,
+				264B5FF426FEBC1400F5ED3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264B5FF826FEBC1400F5ED3A /* PBXTargetDependency */,
+			);
+			name = GriefConnectTests;
+			productName = GriefConnectTests;
+			productReference = 264B5FF626FEBC1400F5ED3A /* GriefConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		264B600026FEBC1400F5ED3A /* GriefConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264B601026FEBC1400F5ED3A /* Build configuration list for PBXNativeTarget "GriefConnectUITests" */;
+			buildPhases = (
+				BA4B49E430EC90C07DF57901 /* [CP] Check Pods Manifest.lock */,
+				264B5FFD26FEBC1400F5ED3A /* Sources */,
+				264B5FFE26FEBC1400F5ED3A /* Frameworks */,
+				264B5FFF26FEBC1400F5ED3A /* Resources */,
+				EB685875084134E33ABB7DC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264B600326FEBC1400F5ED3A /* PBXTargetDependency */,
+			);
+			name = GriefConnectUITests;
+			productName = GriefConnectUITests;
+			productReference = 264B600126FEBC1400F5ED3A /* GriefConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264B5FD526FEBC1200F5ED3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					264B5FDC26FEBC1200F5ED3A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					264B5FF526FEBC1400F5ED3A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 264B5FDC26FEBC1200F5ED3A;
+					};
+					264B600026FEBC1400F5ED3A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 264B5FDC26FEBC1200F5ED3A;
+					};
+				};
+			};
+			buildConfigurationList = 264B5FD826FEBC1200F5ED3A /* Build configuration list for PBXProject "GriefConnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264B5FD426FEBC1200F5ED3A;
+			productRefGroup = 264B5FDE26FEBC1200F5ED3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264B5FDC26FEBC1200F5ED3A /* GriefConnect */,
+				264B5FF526FEBC1400F5ED3A /* GriefConnectTests */,
+				264B600026FEBC1400F5ED3A /* GriefConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264B5FDB26FEBC1200F5ED3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264B5FF026FEBC1400F5ED3A /* LaunchScreen.storyboard in Resources */,
+				26981EDF26FF72CC003710C7 /* GoogleService-Info.plist in Resources */,
+				264B5FED26FEBC1400F5ED3A /* Assets.xcassets in Resources */,
+				264B5FE826FEBC1200F5ED3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264B5FF426FEBC1400F5ED3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264B5FFF26FEBC1400F5ED3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		596EAAC377FB370098A209C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GriefConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA4B49E430EC90C07DF57901 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GriefConnect-GriefConnectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C2A2CBD829202B3B8FF089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GriefConnectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B8A35BFA624DE2A816F98A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GriefConnect/Pods-GriefConnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GriefConnect/Pods-GriefConnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GriefConnect/Pods-GriefConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB685875084134E33ABB7DC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GriefConnect-GriefConnectUITests/Pods-GriefConnect-GriefConnectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GriefConnect-GriefConnectUITests/Pods-GriefConnect-GriefConnectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GriefConnect-GriefConnectUITests/Pods-GriefConnect-GriefConnectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264B5FD926FEBC1200F5ED3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264B5FEB26FEBC1200F5ED3A /* GriefConnect.xcdatamodeld in Sources */,
+				264B5FE126FEBC1200F5ED3A /* AppDelegate.swift in Sources */,
+				2658FF4226FF82F200C74FA2 /* UserDatabaseModel.swift in Sources */,
+				26981EDD26FF70FA003710C7 /* LoginViewController.swift in Sources */,
+				264B5FE326FEBC1200F5ED3A /* SceneDelegate.swift in Sources */,
+				2658FF462700C05400C74FA2 /* HomeCellViewTableViewCell.swift in Sources */,
+				2658FF442700B91900C74FA2 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264B5FF226FEBC1400F5ED3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264B5FFB26FEBC1400F5ED3A /* GriefConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264B5FFD26FEBC1400F5ED3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264B600626FEBC1400F5ED3A /* GriefConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		264B5FF826FEBC1400F5ED3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264B5FDC26FEBC1200F5ED3A /* GriefConnect */;
+			targetProxy = 264B5FF726FEBC1400F5ED3A /* PBXContainerItemProxy */;
+		};
+		264B600326FEBC1400F5ED3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264B5FDC26FEBC1200F5ED3A /* GriefConnect */;
+			targetProxy = 264B600226FEBC1400F5ED3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		264B5FE626FEBC1200F5ED3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264B5FE726FEBC1200F5ED3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		264B5FEE26FEBC1400F5ED3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264B5FEF26FEBC1400F5ED3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264B600826FEBC1400F5ED3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		264B600926FEBC1400F5ED3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264B600B26FEBC1400F5ED3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9ED3AEC641BEDCC90A8CA07 /* Pods-GriefConnect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3R8V2ZYC8;
+				INFOPLIST_FILE = GriefConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GriefConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		264B600C26FEBC1400F5ED3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BA34B799B85CA712D4B547 /* Pods-GriefConnect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3R8V2ZYC8;
+				INFOPLIST_FILE = GriefConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GriefConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		264B600E26FEBC1400F5ED3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D555B8FCE2827E6FDCD403C /* Pods-GriefConnectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3R8V2ZYC8;
+				INFOPLIST_FILE = GriefConnectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GriefConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GriefConnect.app/GriefConnect";
+			};
+			name = Debug;
+		};
+		264B600F26FEBC1400F5ED3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8F1D987AAD8FC92B9F9961 /* Pods-GriefConnectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3R8V2ZYC8;
+				INFOPLIST_FILE = GriefConnectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GriefConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GriefConnect.app/GriefConnect";
+			};
+			name = Release;
+		};
+		264B601126FEBC1400F5ED3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4834768ADE51FED04D8F90AA /* Pods-GriefConnect-GriefConnectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3R8V2ZYC8;
+				INFOPLIST_FILE = GriefConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GriefConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GriefConnect;
+			};
+			name = Debug;
+		};
+		264B601226FEBC1400F5ED3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002B0BB7757F92C23231FAC6 /* Pods-GriefConnect-GriefConnectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3R8V2ZYC8;
+				INFOPLIST_FILE = GriefConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GriefConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GriefConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264B5FD826FEBC1200F5ED3A /* Build configuration list for PBXProject "GriefConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264B600826FEBC1400F5ED3A /* Debug */,
+				264B600926FEBC1400F5ED3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264B600A26FEBC1400F5ED3A /* Build configuration list for PBXNativeTarget "GriefConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264B600B26FEBC1400F5ED3A /* Debug */,
+				264B600C26FEBC1400F5ED3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264B600D26FEBC1400F5ED3A /* Build configuration list for PBXNativeTarget "GriefConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264B600E26FEBC1400F5ED3A /* Debug */,
+				264B600F26FEBC1400F5ED3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264B601026FEBC1400F5ED3A /* Build configuration list for PBXNativeTarget "GriefConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264B601126FEBC1400F5ED3A /* Debug */,
+				264B601226FEBC1400F5ED3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		264B5FE926FEBC1200F5ED3A /* GriefConnect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				264B5FEA26FEBC1200F5ED3A /* GriefConnect.xcdatamodel */,
+			);
+			currentVersion = 264B5FEA26FEBC1200F5ED3A /* GriefConnect.xcdatamodel */;
+			path = GriefConnect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 264B5FD526FEBC1200F5ED3A /* Project object */;
+}
